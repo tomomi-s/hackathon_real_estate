@@ -53,12 +53,12 @@ html, body {
 }
 
 @media screen and (max-width: 991px) {
-    .background {
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-    }
+    /*.background {*/
+        /*background-size: auto 100%;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: center;*/
+        /*height: 100%;*/
+    /*}*/
 
     .headerbottomimage {
         display: none;
