@@ -264,9 +264,13 @@ html, body {
     display: -webkit-flex;
     float: right;
     align-content: right;
-    margin: 40px 20px 0px 20px;
+    margin: 40px 30px 0px 20px;
     width: 264px;
     height: auto;
+}
+
+.houses2 {
+    margin-top: ;
 }
 
 .descriptiontext {
