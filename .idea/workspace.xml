@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91e1d090-4bba-4367-85de-88608a22480f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mailer/customer-email.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +20,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="1003" column="57" lean-forward="false" selection-start-line="1003" selection-start-column="57" selection-end-line="1003" selection-end-column="57" />
+            <state relative-caret-position="30">
+              <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1498136553000" expanded="true" signature="50234:50280" ph="..." />
-                <marker date="1498136553000" expanded="true" signature="50904:50918" ph="..." />
-                <marker date="1498136553000" expanded="true" signature="51282:51296" ph="..." />
-                <marker date="1498136553000" expanded="true" signature="53344:53358" ph="..." />
+                <marker date="1498138186000" expanded="true" signature="50797:50843" ph="..." />
+                <marker date="1498138186000" expanded="true" signature="51467:51481" ph="..." />
+                <marker date="1498138186000" expanded="true" signature="51845:51859" ph="..." />
+                <marker date="1498138186000" expanded="true" signature="53907:53921" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +36,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11100">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="795">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,6 +68,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>email</find>
+      <find>style.css</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,8 +78,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mailer/mail-config.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mailer/mail.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -222,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498134367703</updated>
-      <workItem from="1498134369640" duration="2864000" />
+      <workItem from="1498134369640" duration="3808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2864000" />
+    <option name="totallyTimeSpent" value="3808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="23" width="1179" height="705" extended-state="0" />
@@ -287,32 +277,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="1003" column="57" lean-forward="false" selection-start-line="1003" selection-start-column="57" selection-end-line="1003" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1498136553000" expanded="true" signature="50234:50280" ph="..." />
-            <marker date="1498136553000" expanded="true" signature="50904:50918" ph="..." />
-            <marker date="1498136553000" expanded="true" signature="51282:51296" ph="..." />
-            <marker date="1498136553000" expanded="true" signature="53344:53358" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1498138186000" expanded="true" signature="50797:50843" ph="..." />
+            <marker date="1498138186000" expanded="true" signature="51467:51481" ph="..." />
+            <marker date="1498138186000" expanded="true" signature="51845:51859" ph="..." />
+            <marker date="1498138186000" expanded="true" signature="53907:53921" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11100">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="795">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
