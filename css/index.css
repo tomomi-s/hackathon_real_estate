@@ -10,10 +10,10 @@ html, body {
 .background {
     background-color: #928E83;
     background-image: url("../img/ivory-21.jpg");
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 520px;
+    height: 100%;
 }
 
 .contentor {
@@ -53,12 +53,6 @@ html, body {
 }
 
 @media screen and (max-width: 991px) {
-    /*.background {*/
-        /*background-size: auto 100%;*/
-        /*background-repeat: no-repeat;*/
-        /*background-position: center;*/
-        /*height: 100%;*/
-    /*}*/
 
     .headerbottomimage {
         display: none;
@@ -95,9 +89,6 @@ html, body {
 
 @media screen and (max-width: 767px) {
     .background {
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: center;
         height: 60%;
     }
 
@@ -269,10 +260,6 @@ html, body {
     height: auto;
 }
 
-.houses2 {
-    margin-top: ;
-}
-
 .descriptiontext {
     margin: 0 20px;
 
@@ -310,7 +297,7 @@ html, body {
         float: none;
         align-content: right;
         margin: auto;
-        width: initial;
+        width: 70%;
         height: auto;
     }
 
@@ -399,8 +386,9 @@ html, body {
 /* TABLE */
 #Přehledbytůacen {
     background-image: url("../img/ivory-11.jpg");
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #Přehledbytůacen h3 {
@@ -438,20 +426,6 @@ tbody {
     color: dimgray;
 }
 
-.room-1kk {
-}
-
-room-12kk {
-
-}
-
-.room-3kk {
-
-}
-
-.room-4kk {
-
-}
 
 .table-content {
     display: inline;
@@ -487,6 +461,8 @@ room-12kk {
         padding-bottom: 5px;
         border: 1px solid #DDDDDD;
         box-shadow: none;
+        background-color: white;
+        opacity: 0.9;
     }
 
     .table-floor-mobile {
@@ -766,11 +742,19 @@ room-12kk {
 @media screen and (max-width: 767px) {
     #Galerie {
         background-color: rgb(157, 154, 144);
-        height: 350px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
     }
 
     .gallery-title{
