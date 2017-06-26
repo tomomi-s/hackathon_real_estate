@@ -70,23 +70,23 @@ if($honeypot == 'http://' && empty($humancheck)) {
     $errors = array();
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = "<p>Invalid email format.</p>";
+        $errors[] = "<p>Neplatný formát e-mailu.</p>";
     }
 
     if(empty($firstname)){
-        $errors[] = "<p>Please provide your first name.</p>";
+        $errors[] = "<p>Vyplňte prosím své jméno.</p>";
     }
 
     if(empty($surname)){
-        $errors[] = "<p>Please provide your surname.</p>";
+        $errors[] = "<p>Vyplňte prosím své příjmení.</p>";
     }
 
     if(empty($yourMessage)){
-        $errors[] = "<p>Message is required.</p>";
+        $errors[] = "<p>Vaše zpráva.</p>";
     }
 
     if(!empty($errors)){
-        $messages[] = ['type' => 'error', 'text' => '<h4>The request was successful but your form is not filled out correctly.</h4>'];
+        $messages[] = ['type' => 'error', 'text' => '<h4>Please fill in forms correctly.</h4>'];
         foreach($errors as $error)
         {
             $messages[] = ['type' => 'error', 'text' => $error];
@@ -106,7 +106,7 @@ if($honeypot == 'http://' && empty($humancheck)) {
 
         if($result == 'fail') // one of the sending above did not succeed
         {
-            $messages[] = ['type' => 'error', 'text' => 'Message was not sent'];
+            $messages[] = ['type' => 'error', 'text' => 'Zpráva nebyla odeslána.'];
         }
         else // all of them succeeded
         {
