@@ -18,10 +18,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14820">
+            <state relative-caret-position="-14445">
               <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="303" column="23" lean-forward="true" selection-start-line="303" selection-start-column="23" selection-end-line="303" selection-end-column="23" />
+            <state relative-caret-position="229">
+              <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/mailer/mail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -72,6 +72,7 @@
       <find>header</find>
       <find>style.css</find>
       <find>house</find>
+      <find>.buger-list-wrapper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,15 +216,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498134367703</updated>
-      <workItem from="1498134369640" duration="6055000" />
+      <workItem from="1498134369640" duration="6405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6055000" />
+    <option name="totallyTimeSpent" value="6405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="23" width="1179" height="705" extended-state="1" />
+    <frame x="118" y="23" width="1179" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24978012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -267,7 +268,7 @@
     <entry file="file://$PROJECT_DIR$/mailer/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -288,9 +289,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14820">
+        <state relative-caret-position="-14445">
           <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -299,14 +308,6 @@
             <marker date="1498139256000" expanded="true" signature="51849:51863" ph="..." />
             <marker date="1498139256000" expanded="true" signature="53911:53925" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="303" column="23" lean-forward="true" selection-start-line="303" selection-start-column="23" selection-end-line="303" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
