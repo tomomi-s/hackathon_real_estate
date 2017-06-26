@@ -42,6 +42,7 @@ function send_email($to_address, $template, $subject)
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
+    $mail->CharSet = 'UTF-8';
     $mail->setFrom($config['mail']['from'], $config['mail']['fromname']);//should change to admin mail address for info
     $mail->addAddress($to_address);
     $mail->Subject = $subject;
