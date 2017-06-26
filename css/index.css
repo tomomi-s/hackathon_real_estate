@@ -12,7 +12,6 @@ html, body {
     background-image: url("../img/ivory-21.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
     height: 100%;
 }
 
@@ -176,7 +175,7 @@ html, body {
 
 /*overwrite default*/
 .navbar-inverse .navbar-nav>li>a{
-    color: #EBEBEB;
+    color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -312,6 +311,15 @@ html, body {
         font-size: 18px;
     }
 
+    .descriptiontext {
+        margin: 0;
+
+    }
+
+    .descriptiontext1 {
+        margin: 0;
+    }
+
 }
 /*Location and Map*/
 
@@ -358,11 +366,6 @@ html, body {
 
     .location-img{
         display: none;
-    }
-
-    #mapkit-7239 {
-        width: 80%;
-        margin: auto;
     }
 }
 
@@ -509,6 +512,10 @@ tbody {
         margin-top: 80px;
         margin-bottom: 40px;
         margin-left: 20px;
+    }
+
+    .room-content-mobile {
+        padding-left: 0;
     }
 }
 
@@ -764,7 +771,6 @@ tbody {
     .gallery-title-mobile {
         display: unset;
         width: 100%;
-        margin-left: 40px;
     }
 
     .mfp-no-margins img.mfp-img {
