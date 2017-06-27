@@ -86,7 +86,7 @@ if($honeypot == 'http://' && empty($humancheck)) {
     }
 
     if(!empty($errors)){
-        $messages[] = ['type' => 'error', 'text' => '<h4>Please fill in forms correctly.</h4>'];
+        $messages[] = ['type' => 'error', 'text' => '<h4>Prosíme vyplňte formulář znovu.</h4>'];
         foreach($errors as $error)
         {
             $messages[] = ['type' => 'error', 'text' => $error];
@@ -97,7 +97,7 @@ if($honeypot == 'http://' && empty($humancheck)) {
          // send to admin(s)
         foreach($config['sendto'] as $sendto_address)
         {
-            if(!send_email($sendto_address, 'admin-email.php', '[Rezidence Zalanskeho] Contact from a customer'))
+            if(!send_email($sendto_address, 'admin-email.php', '[Rezidence Žalanského] Contact from a customer'))
             {
                 $result = 'fail';
                 break;
@@ -110,11 +110,11 @@ if($honeypot == 'http://' && empty($humancheck)) {
         }
         else // all of them succeeded
         {
-            $messages[] = ['type' => 'success', 'text' => '<h4>Thank you for contacting us!</h4>'];
+            $messages[] = ['type' => 'success', 'text' => '<h4>Děkujeme Vám za kontaktování!</h4>'];
         }
     }
 } else{
-    $messages[] = ['type' => 'error', 'text' => '<h4>There was a problem with submission. Please try again.</h4>'];
+    $messages[] = ['type' => 'error', 'text' => '<h4>Došlo k problému s odesláním formuláře. Prosím zopakujte.</h4>'];
     $result = 'fail';
 }
 

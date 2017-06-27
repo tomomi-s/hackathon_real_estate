@@ -123,7 +123,7 @@ html, body {
     overflow: hidden;
 }
 
-.navbar2 a:hover{
+.navbar2 a:hover {
     text-decoration: none;
 }
 
@@ -141,12 +141,18 @@ html, body {
     display: none;
     position: fixed;
     top: 0;
-    background-color:rgba(137, 134, 124, 0.8);
+    background-color: rgba(137, 134, 124, 0.8);
     color: white;
     width: 100vw;
     height: 70px;
     z-index: 1000000000;
     margin: 0 auto auto 0px;
+}
+
+.burger .buger-list-wrapper ul li a{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .burgerlogo {
@@ -155,33 +161,34 @@ html, body {
     margin: 10px auto auto 8px;
 }
 
-.burger-button{
+.burger-button {
     margin-top: 20px;
 }
 
-.burger-nav{
+.burger-nav {
     background-color: transparent;
-    border:none;
+    border: none;
 }
+
 .navbar-nav {
     margin-top: 10px;
     margin-left: 20px;
 }
 
-.buger-list-wrapper{
-    background-color:rgba(137, 134, 124, 0.8);
+.buger-list-wrapper {
+    background-color: rgba(137, 134, 124, 0.8);
     border: none;
 }
 
 /*overwrite default*/
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-nav > li > a {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.burger-mobile{
+.burger-mobile {
     display: none;
 }
 
@@ -204,7 +211,6 @@ html, body {
 
 }
 
-
 /*Hamburguer menu*/
 @media screen and (max-width: 767px) {
     .navbar2 {
@@ -215,14 +221,15 @@ html, body {
         display: unset;
         position: fixed;
         top: 0;
-        background-color:rgba(137, 134, 124, 0.8);
+        background-color: rgba(137, 134, 124, 0.8);
         color: white;
         width: 100vw;
         height: 70px;
         z-index: 1000000000;
         margin: 0 auto auto 0px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -321,6 +328,7 @@ html, body {
     }
 
 }
+
 /*Location and Map*/
 
 #Lokalita {
@@ -342,7 +350,7 @@ html, body {
     margin-top: 50px;
 }
 
-.location-img{
+.location-img {
     margin-top: 68px;
 }
 
@@ -364,7 +372,7 @@ html, body {
         margin-bottom: 10px;
     }
 
-    .location-img{
+    .location-img {
         display: none;
     }
 }
@@ -380,9 +388,9 @@ html, body {
         margin-left: 20px;
     }
 
-    .lokalita-contents p{
-    width: 90%;
-    margin: auto;
+    .lokalita-contents p {
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -429,7 +437,6 @@ tbody {
     color: dimgray;
 }
 
-
 .table-content {
     display: inline;
 }
@@ -439,11 +446,11 @@ tbody {
 }
 
 @media screen and (max-width: 991px) {
-    .room-table{
+    .room-table {
         margin-bottom: 20px;
     }
 
-    table{
+    table {
         display: none;
     }
 
@@ -497,14 +504,15 @@ tbody {
         color: white;
     }
 
-    .table-mobile-button11{
+    .table-mobile-button11 {
         margin-bottom: 30px;
     }
 
-    #room11{
+    #room11 {
         margin-top: -30px;
     }
 }
+
 @media screen and (max-width: 767px) {
     #Přehledbytůacen h3 {
         color: rgb(139, 139, 136);
@@ -518,7 +526,6 @@ tbody {
         padding-left: 0;
     }
 }
-
 
 /*Galerie*/
 #Galerie {
@@ -552,8 +559,7 @@ tbody {
     margin-top: 20px;
 }
 
-
-.gallery-title-mobile{
+.gallery-title-mobile {
     display: none;
 }
 
@@ -564,7 +570,6 @@ tbody {
     margin-bottom: 3%;
     margin-top: 6%;
 }
-
 
 /** Carousel **/
 .jcarousel-wrapper {
@@ -711,17 +716,17 @@ tbody {
 .mfp-no-margins .mfp-container {
 }
 
-.mfp-figure:after{
+.mfp-figure:after {
     width: 70%;
     margin: auto;
 }
 
 /*container size*/
 /*.mfp-bg {*/
-    /*top: 10%;*/
-    /*left: 10%;*/
-    /*width: 80%;*/
-    /*height: 80%;*/
+/*top: 10%;*/
+/*left: 10%;*/
+/*width: 80%;*/
+/*height: 80%;*/
 /*}*/
 
 .mfp-with-zoom .mfp-container,
@@ -737,6 +742,7 @@ tbody {
 .mfp-with-zoom.mfp-ready .mfp-container {
     opacity: 1;
 }
+
 .mfp-with-zoom.mfp-ready.mfp-bg {
     opacity: 0.8;
 }
@@ -764,7 +770,7 @@ tbody {
         margin-bottom: 5%;
     }
 
-    .gallery-title{
+    .gallery-title {
         display: none;
     }
 
@@ -778,17 +784,17 @@ tbody {
         width: 100%;
     }
 
-    .mfp-figure:after{
+    .mfp-figure:after {
         width: 100%;
         margin: auto;
     }
 
     /*container size*/
     /*.mfp-bg {*/
-        /*top: 5%;*/
-        /*left: 5%;*/
-        /*width: 90%;*/
-        /*height: 90%;*/
+    /*top: 5%;*/
+    /*left: 5%;*/
+    /*width: 90%;*/
+    /*height: 90%;*/
     /*}*/
 }
 
@@ -839,6 +845,10 @@ tbody {
     color: rgb(137, 134, 124);
     text-align: center;
     width: 100%;
+}
+
+.contact-message h4 {
+    font-size: 16px;
 }
 
 /*company info*/
@@ -892,12 +902,14 @@ tbody {
 
 /* xs < 768 */
 @media screen and (max-width: 767px) {
-    #Kontakt{
+    #Kontakt {
         height: 730px;
     }
-    #Kontakt h3{
+
+    #Kontakt h3 {
         margin-left: 20px;
     }
+
     .contact-init {
         width: 80%;
         margin: auto;
@@ -988,9 +1000,10 @@ tbody {
 
 /* 767 < sm < 992 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #Kontakt{
+    #Kontakt {
         height: 900px;
     }
+
     .company-lists {
         height: 150px;
         border-left: solid 2px rgb(186, 185, 167);
@@ -1000,6 +1013,7 @@ tbody {
         flex-direction: column;
         justify-content: center;
     }
+
     .contact-init {
         width: 60%;
         margin: auto;

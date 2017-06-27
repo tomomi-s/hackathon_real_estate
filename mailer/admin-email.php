@@ -79,6 +79,7 @@
                 margin: auto;
                 text-align: center;
                 color: #B1C393;
+                padding-bottom: 10px;
             }
 
             .message {
@@ -109,13 +110,6 @@
 
     <div class="message">
         <h3>Customer's message</h3>
-<!--        <div class="message-contents">-->
-<!--            <p>First name: Tomomi </p>-->
-<!--            <p>Last name: Suda</p>-->
-<!--            <p>Phone number: +420-000-000-000</p>-->
-<!--            <p>Email: aaa@mail.com</p>-->
-<!--            <p>Message: I would like to get more information.</p>-->
-<!--        </div>-->
 
         <div class="message-contents">
             <p>First name: <?php echo $_POST['firstname']; ?></p>

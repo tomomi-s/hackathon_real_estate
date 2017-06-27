@@ -21,6 +21,53 @@
 </head>
 
 <body>
+<!-- NAVBAR for scroll -->
+<div class="burger">
+    <nav class="navbar navbar-inverse navbar-static-top burger-nav" role="navigation">
+        <div class="navbar-header">
+            <a href="#header"><img class="burgerlogo" src="img/logo.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse buger-list-wrapper">
+            <ul class="nav navbar-nav buger-lists">
+                <li><a href="#oprojektu">O projektu</a></li>
+                <li><a href="#Lokalita">Lokalita</a></li>
+                <li><a href="#Přehledbytůacen">Přehled bytů a cen</a></li>
+                <li><a href="#Galerie">Galerie</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- MOBILE BAR -->
+<div class="burger-mobile">
+    <nav class="navbar navbar-inverse navbar-static-top burger-nav" role="navigation">
+        <div class="navbar-header">
+            <a href="#header"><img class="burgerlogo" src="img/logo.png"></a>
+            <button type="button" class="navbar-toggle collapsed burger-button" data-toggle="collapse"
+                    data-target="#mobile-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar icon-bar1"></span>
+                <span class="icon-bar icon-bar2"></span>
+                <span class="icon-bar icon-bar3"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse buger-list-wrapper" id="mobile-nav">
+            <ul class="nav navbar-nav buger-lists">
+                <li><a href="#oprojektu">O projektu</a></li>
+                <li><a href="#Lokalita">Lokalita</a></li>
+                <li><a href="#Přehledbytůacen">Přehled bytů a cen</a></li>
+                <li><a href="#Galerie">Galerie</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div id=""
 
 <div class="container-fluid contentor background" id="header">
     <div class="row">
@@ -59,60 +106,7 @@
 </div>
 
 
-<!-- NAVBAR MOBILE -->
-<!-- MOBILE BAR -->
-<div class="burger">
-    <nav class="navbar navbar-inverse navbar-static-top burger-nav" role="navigation">
-        <div class="navbar-header">
-            <a href="#header"><img class="burgerlogo" src="img/logo.png"></a>
-            <button type="button" class="navbar-toggle collapsed burger-button" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse buger-list-wrapper" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav buger-lists">
-                <li><a href="#oprojektu">O projektu</a></li>
-                <li><a href="#Lokalita">Lokalita</a></li>
-                <li><a href="#Přehledbytůacen">Přehled bytů a cen</a></li>
-                <li><a href="#Galerie">Galerie</a></li>
-                <li><a href="#Kontakt">Kontakt</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
-
-
-<div class="burger-mobile">
-    <nav class="navbar navbar-inverse navbar-static-top burger-nav" role="navigation">
-        <div class="navbar-header">
-            <a href="#header"><img class="burgerlogo" src="img/logo.png"></a>
-            <button type="button" class="navbar-toggle collapsed burger-button" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-2">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse buger-list-wrapper" id="bs-example-navbar-collapse-2">
-            <ul class="nav navbar-nav buger-lists">
-                <li><a href="#oprojektu">O projektu</a></li>
-                <li><a href="#Lokalita">Lokalita</a></li>
-                <li><a href="#Přehledbytůacen">Přehled bytů a cen</a></li>
-                <li><a href="#Galerie">Galerie</a></li>
-                <li><a href="#Kontakt">Kontakt</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
 
 
 <!-- DESCRIPTION -->
@@ -1107,6 +1101,14 @@
                     scrollTop: target.offset().top
                 }, 1000);
             }
+        });
+    });
+
+
+    //hide nav menu after click//
+    $(document).ready(function () {
+        $(".navbar-nav li a").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
         });
     });
 
