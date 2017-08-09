@@ -12,7 +12,7 @@ html, body {
     background-image: url("../img/ivory-21.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 540px;
 }
 
 .contentor {
@@ -20,9 +20,9 @@ html, body {
 }
 
 .logo {
-    width: 30vw;
+    width: 25vw;
     height: auto;
-    margin: 80px 20px;
+    margin: 30px 20px;
 }
 
 .headerbottomimage {
@@ -34,49 +34,27 @@ html, body {
 
 }
 
-.headertitlebottom {
+.bottomrow{
     position: absolute;
     right: 0;
-    vertical-align: text-bottom;
     bottom: 0;
-    text-transform: uppercase;
-    color: white;
     background-color: rgba(189, 189, 189, 0.5);
-    align-items: center;
-    padding: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    width: 29vw;
+    padding: 10px;
+}
+
+.headertitlebottom {
+    text-transform: uppercase;
     text-align: center;
-    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 991px) {
 
     .headerbottomimage {
         display: none;
-    }
-
-    .headertitlebottom {
-        position: absolute;
-        right: 0;
-        vertical-align: text-bottom;
-        bottom: 0%;
-        text-transform: uppercase;
-        color: white;
-        background-color: rgba(189, 189, 189, 0.5);
-        align-items: center;
-        padding: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 26px;
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-
-    .bottomrow {
-        padding: 0;
-        margin: 0 auto -20px auto;
     }
 
     .logo {
@@ -92,17 +70,17 @@ html, body {
     }
 
     .logo {
-        /*width: 80vw;*/
-        /*height: auto;*/
-        /*margin: 150px 20px;*/
         display: none;
     }
 
-    h5 {
-        font-family: 'Raleway', sans-serif;
-        color: white;
-        font-size: 18px;
-    }
+.bottomrow{
+     width: 100%;
+     padding: 0;
+ }
+
+ .headertitlebottom {
+    font-size: 14px;
+ }
 
 }
 
@@ -114,7 +92,7 @@ html, body {
     height: 70px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-right: 0px;
     border-left: white solid 16px;
     text-align: center;
@@ -144,7 +122,7 @@ html, body {
     background-color: rgba(137, 134, 124, 0.8);
     color: white;
     width: 100vw;
-    height: 70px;
+    height: 60px;
     z-index: 1000000000;
     margin: 0 auto auto 0px;
 }
@@ -157,12 +135,13 @@ html, body {
 
 .burgerlogo {
     display: unset;
-    height: 60px;
-    margin: 10px auto auto 8px;
+    height: 55px;
+    margin: 3px auto auto 8px;
+    cursor: pointer;
 }
 
 .burger-button {
-    margin-top: 20px;
+    margin-top: 13px;
 }
 
 .burger-nav {
@@ -171,7 +150,7 @@ html, body {
 }
 
 .navbar-nav {
-    margin-top: 10px;
+    margin-top: 7px;
     margin-left: 20px;
 }
 
@@ -224,7 +203,7 @@ html, body {
         background-color: rgba(137, 134, 124, 0.8);
         color: white;
         width: 100vw;
-        height: 70px;
+        height: 60px;
         z-index: 1000000000;
         margin: 0 auto auto 0px;
     }
@@ -250,36 +229,14 @@ html, body {
     text-transform: uppercase;
     color: white;
     background-color: #C0BB95;
-    margin: -25px 60px 60px 0;
+    margin: -25px 0px 10px 0;
     padding: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
 
-.houses {
-    display: flex;
-    display: -webkit-flex;
-    float: right;
-    align-content: right;
-    margin: 40px 30px 0px 20px;
-    width: 264px;
-    height: auto;
-}
-
 .descriptiontext {
     margin: 0 20px;
-
-}
-
-.descriptiontext1 {
-    margin: 0 20px;
-}
-
-.titles {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #969289;
-    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -297,34 +254,9 @@ html, body {
 }
 
 @media screen and (max-width: 991px) {
-    .houses {
-        display: flex;
-        display: -webkit-flex;
-        float: none;
-        align-content: right;
-        margin: auto;
-        width: 70%;
-        height: auto;
-    }
-
-    .descriptiontitle {
-        display: inline-block;
-        text-transform: uppercase;
-        color: white;
-        background-color: #C0BB95;
-        margin: -25px 60px 60px 0;
-        padding: 20px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-    }
-
     .descriptiontext {
         margin: 0;
 
-    }
-
-    .descriptiontext1 {
-        margin: 0;
     }
 
 }
@@ -380,6 +312,7 @@ html, body {
 @media screen and (max-width: 767px) {
     #mapkit-7239 {
         height: 250px;
+        width: 95%;
     }
 
     #Lokalita h3 {
@@ -854,15 +787,17 @@ tbody {
 /*company info*/
 .residence-info {
     position: absolute;
-    left: 175px;
+}
+
+.company-logo{
+     margin-left: 77.5px;
 }
 
 .residence-info img {
-    width: 302.500px;
+    width: 302.5px;
 }
 
 .company-lists {
-    height: 190px;
     border-left: solid 2px rgb(186, 185, 167);
     margin-top: 85px;
     margin-left: 77.5px;
@@ -872,11 +807,17 @@ tbody {
 }
 
 .company-list div {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: rgb(137, 134, 124);
     padding: 5px 0px 5px 10px;
+}
+.company-list div a{
+    color: rgb(137, 134, 124);
+}
+.company-list div a:hover{
+    text-decoration: underline;
 }
 
 .button-to-top {
@@ -896,14 +837,55 @@ tbody {
 
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 991px) {
+    .residence-info {
+        width: 80%;
+        position: static;
+        left: 0px;
+        top: 0px;
+        margin: auto;
+        margin-top: 20px;
+    }
 
+    .company-logo {
+        width: 60%;
+        margin: auto;
+        padding-top: 0px;
+    }
+
+    .residence-info img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .company-lists {
+        width: 100%;
+        border-left: none;
+        margin: auto;
+        padding-top: 30px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+
+    }
+
+    .company-list div {
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 200;
+        color: rgb(137, 134, 124);
+        padding: 5px 0px 5px 10px;
+    }
+
+    .company-list {
+        margin: auto;
+    }
 }
 
 /* xs < 768 */
 @media screen and (max-width: 767px) {
     #Kontakt {
-        height: 730px;
+        height: 850px;
     }
 
     #Kontakt h3 {
@@ -935,83 +917,12 @@ tbody {
         display: none;
     }
 
-    .residence-info {
-        width: 80%;
-        position: static;
-        left: 0px;
-        top: 0px;
-        margin: auto;
-    }
-
-    .company-logo {
-        width: 60%;
-        margin: auto;
-        padding-top: 0px;
-    }
-
-    .residence-info img {
-        width: 100%;
-        margin: auto;
-    }
-
-    .company-lists {
-        height: 100px;
-        width: 100%;
-        border-left: none;
-        margin-top: 50px;
-        margin-left: 0px;
-        margin: auto;
-        padding-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .company-list div {
-        font-size: 12px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 200;
-        color: rgb(137, 134, 124);
-        padding: 5px 0px 5px 10px;
-    }
-
-    .company-list {
-        margin: auto;
-    }
-
-    .company-list-mobile {
-        display: unset;
-        width: 100%;
-        height: 100%;
-    }
-
-    .company-list-mobile div {
-        font-size: 12px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 200;
-        color: rgb(137, 134, 124);
-        padding: 10px 0px 10px 0px;
-        width: 100%;
-        text-align: center;
-    }
-
 }
 
 /* 767 < sm < 992 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     #Kontakt {
         height: 900px;
-    }
-
-    .company-lists {
-        height: 150px;
-        border-left: solid 2px rgb(186, 185, 167);
-        margin-top: 30px;
-        margin-left: 77.5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .contact-init {
