@@ -342,7 +342,11 @@ html, body {
     margin-bottom: 40px;
 }
 
-.table {
+.table{
+    margin-bottom: 0;
+}
+
+.table-for-desktop {
     justify-content: center;
     text-align: center;
     width: auto;
@@ -360,12 +364,16 @@ html, body {
     height: 50px;
 }
 
-.table > thead > tr > th {
+.table-for-desktop > thead > tr > th {
     vertical-align: middle;
     text-align: center;
 }
 
-tbody {
+.table-head-10{
+    width: 15%;
+}
+
+.tbody-for-desktop {
     background-color: rgba(254, 251, 246, 0.9);
     color: dimgray;
 }
@@ -378,12 +386,18 @@ tbody {
     display: none;
 }
 
+.table-note{
+    color: rgb(254, 251, 246);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
 @media screen and (max-width: 991px) {
     .room-table {
         margin-bottom: 20px;
     }
 
-    table {
+    .table-for-desktop {
         display: none;
     }
 
@@ -408,6 +422,20 @@ tbody {
         opacity: 0.9;
     }
 
+    .table-for-mobile{
+        border: none;
+        margin-bottom: 5px;
+    }
+
+    .table-for-mobile > tbody > tr > td{
+        border-top: none;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
     .table-floor-mobile {
         background-color: #888479;
         color: white;
@@ -420,14 +448,10 @@ tbody {
     .table-room-mobile {
         width: 100%;
         border-radius: 0;
-        background-color: rgba(254, 251, 246, 0.7);
+        background-color: rgba(254, 251, 246, 0.9);
         border-top: 1px solid #DDDDDD;
         color: dimgray;
         font-weight: 300;
-    }
-
-    .room-content-mobile {
-        list-style: none;
     }
 
     .pdf-mobile {
@@ -436,28 +460,17 @@ tbody {
         opacity: 0.8;
         color: white;
     }
-
-    .table-mobile-button11 {
-        margin-bottom: 30px;
-    }
-
-    #room11 {
-        margin-top: -30px;
-    }
 }
 
 @media screen and (max-width: 767px) {
     #Přehledbytůacen h3 {
         color: rgb(139, 139, 136);
         font-family: 'Lora', serif;
-        margin-top: 80px;
-        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    .room-content-mobile {
-        padding-left: 0;
-    }
 }
 
 /*Galerie*/
@@ -502,6 +515,14 @@ tbody {
     text-align: center;
     margin-bottom: 3%;
     margin-top: 6%;
+}
+
+@media screen and (max-width: 767px) {
+#Galerie h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 }
 
 /** Carousel **/
@@ -763,6 +784,8 @@ tbody {
 .loading, .success, .error {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: rgba(177, 195, 148, 0.5);
     border: solid 2px rgb(177, 195, 148);
     display: flex;
@@ -815,6 +838,7 @@ tbody {
 }
 .company-list div a{
     color: rgb(137, 134, 124);
+    text-decoration: underline;
 }
 .company-list div a:hover{
     text-decoration: underline;
@@ -839,7 +863,7 @@ tbody {
 
 @media screen and (max-width: 991px) {
     .residence-info {
-        width: 80%;
+        width: 100%;
         position: static;
         left: 0px;
         top: 0px;
@@ -848,7 +872,7 @@ tbody {
     }
 
     .company-logo {
-        width: 60%;
+        width: 40%;
         margin: auto;
         padding-top: 0px;
     }
@@ -863,9 +887,6 @@ tbody {
         border-left: none;
         margin: auto;
         padding-top: 30px;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
 
     }
 
@@ -892,6 +913,10 @@ tbody {
         margin-left: 20px;
     }
 
+    .section-title-contact {
+    margin-top: 20px;
+}
+
     .contact-init {
         width: 80%;
         margin: auto;
@@ -915,6 +940,15 @@ tbody {
 
     .hide-contact-message {
         display: none;
+    }
+
+    .company-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .residence-info img {
+        width: 200px;
     }
 
 }
