@@ -328,14 +328,14 @@ html, body {
 }
 
 /* TABLE */
-#Přehledbytůacen {
+#Prehledbytuacen {
     background-image: url("../img/ivory-11.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#Přehledbytůacen h3 {
+#Prehledbytuacen h3 {
     color: rgb(139, 139, 136);
     font-family: 'Lora', serif;
     margin-top: 80px;
@@ -463,7 +463,7 @@ html, body {
 }
 
 @media screen and (max-width: 767px) {
-    #Přehledbytůacen h3 {
+    #Prehledbytuacen h3 {
         color: rgb(139, 139, 136);
         font-family: 'Lora', serif;
         margin-top: 20px;
